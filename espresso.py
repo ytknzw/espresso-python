@@ -9,10 +9,14 @@ Espresso is freely available under the terms of the GNU Public License, version 
 import os
 import sys
 from threading import Timer
+<<<<<<< HEAD
 try:
 	from PySide import QtCore, QtGui, QtSvg
 except ImportError:
 	from PyQt5 import QtCore, QtGui, QtSvg, QtWidgets
+=======
+from PyQt5 import QtCore, QtGui, QtSvg, QtWidgets
+>>>>>>> upstream/master
 
 
 class TrayIcon(QtWidgets.QSystemTrayIcon):
